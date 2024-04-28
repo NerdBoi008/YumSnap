@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">YumSnap</string>
+
+    <!--MainActivity-->
+    <string name="ss_note"><font color="#FEFEFE">Find your favorite</font> <font color="#fdd835">recipes</font></string>
+
+    <!--Home Screen-->
+    <string name="home_title">Recipes</string>
+    <string name="greetings">Hello 🖐</string>
+    <string name="quote">Every recipe tells a story. 🍳✨\nCreate your own <font color="#fdd835">culinary journey.</font> 🌟🍽️</string>
+    <string name="loading_msg">Fetching data…</string>
+    <string name="recipe_header">%d Recipes</string>
+
+
+</resources>

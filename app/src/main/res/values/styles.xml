@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.YumSnap.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/colorBackground</item>
+        <item name="chipStrokeColor">@color/colorBlackShadow</item>
+        <item name="android:textColor">@color/colorBlackSoft</item>
+        <item name="chipCornerRadius">40dp</item>
+        <item name="chipStrokeWidth">2dp</item>
+        <item name="android:checkable">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:fontFamily">@font/josefinsans_medium</item>
+    </style>
+
+    <style name="Base.Theme.YumSnap.BottomSheet" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="android:fontFamily">@font/josefinsans_medium</item>
+        <item name="backgroundTint">@color/colorBackground</item>
+    </style>
+
+    <style name="Base.Theme.YumSnap.TabLayout" parent="Widget.Material3.TabLayout">
+        <item name="android:backgroundTint">@color/colorOnBackground</item>
+    </style>
+
+</resources>

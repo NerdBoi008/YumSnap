@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.YumSnap" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+        <item name="colorSecondary">@color/colorSecondary</item>
+
+        <item name="android:windowBackground">@color/colorBackground</item>
+
+        <item name="fontFamily">@font/quicksand_medium</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+
+        <item name="chipStyle">@style/Base.Theme.YumSnap.Chip</item>
+        <item name="bottomSheetStyle">@style/Base.Theme.YumSnap.BottomSheet</item>
+        <item name="statusBarForeground">@color/colorOnBackground</item>
+        <item name="android:statusBarColor">@color/colorOnBackground</item>
+    </style>
+
+    <style name="Theme.YumSnap" parent="Base.Theme.YumSnap" />
+
+    <style name="Base.Theme.YumSnap.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/colorBackground</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_white_icon</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/colorPrimaryDark</item>
+        <item name="iconTint">@color/colorOnPrimary</item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
+        <!--        <item name="android:windowSplashScreenBrandingImage">@drawable/branding_logo</item>-->
+        <item name="postSplashScreenTheme">@style/Base.Theme.YumSnap</item>
+    </style>
+
+</resources>
