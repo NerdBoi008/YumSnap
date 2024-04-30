@@ -34,7 +34,7 @@ Welcome to YumSnap Recipe App, your go-to companion for discovering delicious re
 
 To get started with Recipe App, follow these steps:
 
-1. **Clone the Repository**: Clone this repository to your local machine using `git clone https://github.com/your-username/recipe-app.git`.
+1. **Clone the Repository**: Clone this repository to your local machine using `gh repo clone NerdBoi008/YumSnap`.
 2. **Install Dependencies**: Install any necessary dependencies by following the instructions in the project's README file.
 3. **Build and Run**: Build and run the app on your preferred development environment (Android Studio, IntelliJ IDEA, etc.).
 4. **Explore and Enjoy**: Start exploring the app, discover new recipes, and enjoy cooking delicious meals!
